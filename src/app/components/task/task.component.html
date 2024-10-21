@@ -1,0 +1,45 @@
+<div class="container bg-white p-4 rounded-lg">
+  <div class="title flex items-center mb-5 justify-center">
+    <h1 class="mr-2 font-bold text-xl">Todo App</h1>
+    <fa-icon [icon]="faListCheck"></fa-icon>
+  </div>
+
+  <form>
+    <div class="flex bg-gray-200 justify-between items-center pl-4 rounded-lg">
+      <input
+        [(ngModel)]="newtask"
+        class="bg-transparent p-4 outline-none"
+        type="text"
+        name="task"
+        id="task"
+        placeholder="Add you task"
+      />
+      <button
+        (click)="AddTask()"
+        class="bg-orange-500 p-4 rounded-lg text-white"
+      >
+        Add
+      </button>
+    </div>
+  </form>
+  <div class="all_tasks p-4">
+    @for (item of tasks; track $index) {
+    <div class="cont flex my-4 items-center justify-between p-2">
+      <div class="flex items-center">
+        <div
+          class="h-6 w-6 rounded-full mr-4 border border-orange-700 flex items-center justify-center"
+          (click)="markCompleted($index)"
+          [ngClass]="{ complete: item.completed }"
+        >
+          <fa-icon class="text-white" [icon]="faCheck"></fa-icon>
+        </div>
+        <p [ngClass]="{ itemComplete: item.completed }">{{ item.title }}</p>
+      </div>
+      <button (click)="removeTask($index)">
+        <fa-icon [icon]="faXmark"></fa-icon>
+      </button>
+    </div>
+
+    }
+  </div>
+</div>

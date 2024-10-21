@@ -1,0 +1,13 @@
+.container {
+  min-width: 500px;
+}
+button {
+  width: 20%;
+}
+.complete {
+  background-color: #f97316;
+}
+.itemComplete {
+  text-decoration: line-through;
+  color: gray;
+}
