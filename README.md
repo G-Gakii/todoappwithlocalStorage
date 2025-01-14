@@ -1,27 +1,34 @@
 # TodoApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
+This is a simple to-do list application that saves tasks to local storage, allowing users to manage their tasks even after refreshing or closing the browser.
 
-## Development server
+# Screenshots
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# links
 
-## Code scaffolding
+- live:[todoappwithlocalStorage](https://todoappwithlocal-storage.vercel.app)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+- Angular
+- HTML
+- CSS
+- Typescript
+- JavaScript
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Features
 
-## Running unit tests
+- Add tasks to the list
+- Mark tasks as completed
+- Delete tasks
+- Persist tasks using local storage
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Installation
 
-## Running end-to-end tests
+- git clone git@github.com:G-Gakii/todoappwithlocalStorage.git
+- cd todoappwithlocalStorage
+- npm install
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+  # Run
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+  - ng serve
