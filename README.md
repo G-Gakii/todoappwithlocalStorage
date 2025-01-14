@@ -3,6 +3,9 @@
 This is a simple to-do list application that saves tasks to local storage, allowing users to manage their tasks even after refreshing or closing the browser.
 
 # Screenshots
+ - ![before adding task](https://github.com/G-Gakii/todoappwithlocalStorage/blob/main/public/images/Screenshot%202025-01-14%20at%2008.56.04.png)
+ - ![after adding task](https://github.com/G-Gakii/todoappwithlocalStorage/blob/main/public/images/Screenshot%202025-01-14%20at%2008.56.44.png)
+ -  ![mark complete](https://github.com/G-Gakii/todoappwithlocalStorage/blob/main/public/images/Screenshot%202025-01-14%20at%2008.56.57.png)
 
 # links
 
